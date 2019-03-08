@@ -3,10 +3,10 @@
 ############# POWER TO THE PEOPLE
 ```javascript
 var yeet = function (skeet) {
-    if (esketit) {
+    if (esketit === skeet) {
         return "Jonko klappen"
     }
-    else () {
+    else {
         return "I T U L L I M I N U L L I"
     }
 };
