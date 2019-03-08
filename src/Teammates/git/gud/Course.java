@@ -1,14 +1,13 @@
 package Teammates.git.gud;
 
 import java.util.Date;
-import java.util.TimeZone;
 
 public class Course {
     private String Id;
     private String Name;
     private Date CreatedAt;
     private Date DeletedAt;
-    private java.util.TimeZone TimeZone;
+    private String TimeZone;
 
     public String getId() {
         return Id;
@@ -42,15 +41,15 @@ public class Course {
         DeletedAt = deletedAt;
     }
 
-    public java.util.TimeZone getTimeZone() {
+    public String getTimeZone() {
         return TimeZone;
     }
 
-    public void setTimeZone(java.util.TimeZone timeZone) {
+    public void setTimeZone(String timeZone) {
         TimeZone = timeZone;
     }
 
-    public Course(String id, String name, Date createdAt, Date deletedAt, java.util.TimeZone timeZone) {
+    public Course(String id, String name, Date createdAt, Date deletedAt, String timeZone) {
 
         Id = id;
         Name = name;
