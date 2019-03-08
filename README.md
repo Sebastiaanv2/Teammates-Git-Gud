@@ -1,13 +1,3 @@
-# Teammates-Git-Gud
-# YEET SKEET DELETE
-############# POWER TO THE PEOPLE
-```javascript
-var yeet = function (skeet) {
-    if (esketit === skeet) {
-        return "Jonko klappen"
-    }
-    else {
-        return "I T U L L I M I N U L L I"
-    }
-};
-```
+# Advanced Software Design -  Open source II
+## Context map
+![alt text](https://cdn.discordapp.com/attachments/403119729973395458/553565827589341186/Blank_Diagram_2.png)
