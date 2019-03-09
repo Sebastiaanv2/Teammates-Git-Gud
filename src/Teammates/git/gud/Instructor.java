@@ -1,7 +1,6 @@
 package Teammates.git.gud;
 
 public class Instructor {
-    private String Id;
     private String GoogleId;
     private String CourseId;
     private boolean IsArchived;
@@ -10,8 +9,7 @@ public class Instructor {
     private String RegistrationKey;
     private String Role;
 
-    public Instructor(String id, String googleId, String courseId, boolean isArchived, String name, String email, String registrationKey, String role) {
-        Id = id;
+    public Instructor( String googleId, String courseId, boolean isArchived, String name, String email, String registrationKey, String role) {
         GoogleId = googleId;
         CourseId = courseId;
         IsArchived = isArchived;
@@ -19,14 +17,6 @@ public class Instructor {
         Email = email;
         RegistrationKey = registrationKey;
         Role = role;
-    }
-
-    public String getId() {
-        return Id;
-    }
-
-    public void setId(String id) {
-        Id = id;
     }
 
     public String getGoogleId() {
@@ -83,5 +73,9 @@ public class Instructor {
 
     public void setRole(String role) {
         Role = role;
+    }
+
+    public String toString() {
+        return getName() + " now teaches course: " + getCourseId();
     }
 }
