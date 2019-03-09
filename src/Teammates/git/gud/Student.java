@@ -7,14 +7,14 @@ public class Student {
     private String Email;
     private String Name;
     private String TeamName;
-    private ArrayList<Course> Courses;
+    private ArrayList<String> CourseIds;
 
-    public Student(String googleId, String email, String name, String teamName, ArrayList<Course> courses) {
+    public Student(String googleId, String email, String name, String teamName, ArrayList<String> courses) {
         GoogleId = googleId;
         Email = email;
         Name = name;
         TeamName = teamName;
-        Courses = courses;
+        CourseIds = courses;
     }
 
     public String getGoogleId() {
@@ -50,11 +50,11 @@ public class Student {
         TeamName = teamName;
     }
 
-    public ArrayList<Course> getCourses() {
-        return Courses;
+    public ArrayList<String> getCourses() {
+        return CourseIds;
     }
 
-    public void setCourses(ArrayList<Course> courses) {
-        Courses = courses;
+    public void setCourses(ArrayList<String> courses) {
+        CourseIds = courses;
     }
 }

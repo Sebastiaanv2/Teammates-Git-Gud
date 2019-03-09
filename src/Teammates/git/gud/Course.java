@@ -9,6 +9,15 @@ public class Course {
     private Date DeletedAt;
     private String TimeZone;
 
+    public Course(String id, String name, Date createdAt, Date deletedAt, String timeZone) {
+
+        Id = id;
+        Name = name;
+        CreatedAt = createdAt;
+        DeletedAt = deletedAt;
+        TimeZone = timeZone;
+    }
+
     public String getId() {
         return Id;
     }
@@ -49,12 +58,8 @@ public class Course {
         TimeZone = timeZone;
     }
 
-    public Course(String id, String name, Date createdAt, Date deletedAt, String timeZone) {
-
-        Id = id;
-        Name = name;
-        CreatedAt = createdAt;
-        DeletedAt = deletedAt;
-        TimeZone = timeZone;
+    public String toString() {
+        return "Course Name: " + getName();
     }
+
 }
