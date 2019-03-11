@@ -4,5 +4,5 @@
 
 Functions that will be made/remade according to DDD as taught in the course Advanced Software Design:
 
-* getCoursesOfStudent
-* changeInstructor
+* findCoursesOfStudent(googleId)
+* updateCourseForInstructor(googleId, courseId)
