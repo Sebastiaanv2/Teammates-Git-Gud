@@ -7,15 +7,13 @@ public class Course {
     private String Name;
     private Date CreatedAt;
     private Date DeletedAt;
-    private String TimeZone;
 
-    public Course(String id, String name, Date createdAt, Date deletedAt, String timeZone) {
+    public Course(String id, String name, Date createdAt, Date deletedAt) {
 
         Id = id;
         Name = name;
         CreatedAt = createdAt;
         DeletedAt = deletedAt;
-        TimeZone = timeZone;
     }
 
     public String getId() {
@@ -48,14 +46,6 @@ public class Course {
 
     public void setDeletedAt(Date deletedAt) {
         DeletedAt = deletedAt;
-    }
-
-    public String getTimeZone() {
-        return TimeZone;
-    }
-
-    public void setTimeZone(String timeZone) {
-        TimeZone = timeZone;
     }
 
     public String toString() {

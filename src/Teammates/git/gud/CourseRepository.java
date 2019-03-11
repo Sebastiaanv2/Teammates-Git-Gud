@@ -5,8 +5,8 @@ import java.util.Date;
 
 public class CourseRepository {
     public Course findCourseById(String courseId) {
-        Course c = new Course("001", "ASD", new Date(), new Date(), "+0800");
-        Course d = new Course("002", "ISE", new Date(), new Date(), "-0100");
+        Course c = new Course("001", "ASD", new Date(), new Date());
+        Course d = new Course("002", "ISE", new Date(), new Date());
         ArrayList<Course> courses = new ArrayList<>();
         courses.add(c);
         courses.add(d);
