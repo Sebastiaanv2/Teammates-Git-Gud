@@ -1,7 +1,6 @@
 package Teammates.git.gud;
 
 import java.util.ArrayList;
-import java.util.Date;
 
 public class StudentRepository {
     public Student findStudentById(String googleId) {

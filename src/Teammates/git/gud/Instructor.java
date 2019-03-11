@@ -7,9 +7,9 @@ public class Instructor {
     private String Name;
     private String Email;
     private String RegistrationKey;
-    private String Role;
+    private Role Role;
 
-    public Instructor( String googleId, String courseId, boolean isArchived, String name, String email, String registrationKey, String role) {
+    public Instructor( String googleId, String courseId, boolean isArchived, String name, String email, String registrationKey, Role role) {
         GoogleId = googleId;
         CourseId = courseId;
         IsArchived = isArchived;
@@ -67,11 +67,11 @@ public class Instructor {
         RegistrationKey = registrationKey;
     }
 
-    public String getRole() {
+    public Role getRole() {
         return Role;
     }
 
-    public void setRole(String role) {
+    public void setRole(Role role) {
         Role = role;
     }
 
