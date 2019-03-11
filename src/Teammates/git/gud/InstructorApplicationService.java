@@ -1,10 +1,10 @@
 package Teammates.git.gud;
 
 public class InstructorApplicationService {
-    public Instructor updateInstructorOfCourse(String instructorId, String courseId) {
+    public Instructor updateCourseOfInstructor(String googleId, String courseId) {
         InstructorRepository instructorRepo = new InstructorRepository();
-        if (instructorRepo.archiveInstructorOfCourse(courseId)) {
-            Instructor instructor = instructorRepo.findInstructorById(instructorId);
+        if (instructorRepo.updateCourseOfInstructor(courseId)) {
+            Instructor instructor = instructorRepo.findInstructorById(googleId);
             instructor.setCourseId(courseId);
             return instructor;
         }

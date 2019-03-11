@@ -9,7 +9,7 @@ public class Instructor {
     private String RegistrationKey;
     private Role Role;
 
-    public Instructor( String googleId, String courseId, boolean isArchived, String name, String email, String registrationKey, Role role) {
+    public Instructor(String googleId, String courseId, boolean isArchived, String name, String email, String registrationKey, Role role) {
         GoogleId = googleId;
         CourseId = courseId;
         IsArchived = isArchived;
