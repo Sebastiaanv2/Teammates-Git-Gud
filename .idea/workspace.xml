@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af8b124d-6ba0-41fb-808f-b88e4b82f152" name="Default" comment="small fix for course" />
+    <list default="true" id="af8b124d-6ba0-41fb-808f-b88e4b82f152" name="Default" comment="small fix for course">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Teammates/git/gud/CourseRepository.java" afterPath="$PROJECT_DIR$/src/Teammates/git/gud/CourseRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Teammates/git/gud/InstructorApplicationService.java" afterPath="$PROJECT_DIR$/src/Teammates/git/gud/InstructorApplicationService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Teammates/git/gud/InstructorRESTService.java" afterPath="$PROJECT_DIR$/src/Teammates/git/gud/InstructorRESTService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Teammates/git/gud/InstructorRepository.java" afterPath="$PROJECT_DIR$/src/Teammates/git/gud/InstructorRepository.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,24 +17,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="297">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/Student.java">
+      <file leaf-file-name="StudentRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/StudentRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-              <folding>
-                <element signature="method#getGoogleId#0;class#Student#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -37,18 +40,18 @@
       <file leaf-file-name="StudentApplicationService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/StudentApplicationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Course.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/Course.java">
+      <file leaf-file-name="StudentRESTService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/StudentRESTService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -57,182 +60,8 @@
       <file leaf-file-name="InstructorRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/InstructorRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InstructorRESTService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/InstructorRESTService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JAVA/Teammates.git.gud" pinned="false" current-in-tab="true">
-        <entry file="uml://JAVA/Teammates.git.gud">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>Teammates.git.gud</OriginalElement>
-              <nodes>
-                <node x="0.0" y="737.0">Teammates.git.gud.InstructorRESTService</node>
-                <node x="664.4110416666665" y="737.0">Teammates.git.gud.StudentRESTService</node>
-                <node x="19.05687499999999" y="145.0">Teammates.git.gud.Instructor</node>
-                <node x="830.181875" y="178.0">Teammates.git.gud.Course</node>
-                <node x="160.72354166666662" y="424.0">Teammates.git.gud.InstructorRepository</node>
-                <node x="448.181875" y="178.5">Teammates.git.gud.Student</node>
-                <node x="835.7366666666666" y="479.5">Teammates.git.gud.CourseRepository</node>
-                <node x="475.806875" y="479.5">Teammates.git.gud.StudentRepository</node>
-                <node x="404.32770833333325" y="838.0">Teammates.git.gud.Main</node>
-                <node x="584.1610416666665" y="636.0">Teammates.git.gud.StudentApplicationService</node>
-                <node x="65.22354166666662" y="636.0">Teammates.git.gud.InstructorApplicationService</node>
-                <node x="253.63812500000006" y="0.0">Teammates.git.gud.Role</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="Teammates.git.gud.Instructor" target="Teammates.git.gud.Role">
-                  <point x="-97.0" y="-114.5" />
-                  <point x="116.05687499999999" y="120.0" />
-                  <point x="266.9714583333334" y="120.0" />
-                  <point x="-26.666666666666686" y="47.5" />
-                </edge>
-                <edge source="Teammates.git.gud.StudentApplicationService" target="Teammates.git.gud.Student">
-                  <point x="-26.91666666666663" y="-25.5" />
-                  <point x="718.744375" y="616.0" />
-                  <point x="728.1252083333334" y="616.0" />
-                  <point x="728.1252083333334" y="399.0" />
-                  <point x="749.8485416666667" y="399.0" />
-                  <point x="120.66666666666674" y="81.0" />
-                </edge>
-                <edge source="Teammates.git.gud.InstructorApplicationService" target="Teammates.git.gud.InstructorRepository">
-                  <point x="112.33333333333331" y="-25.5" />
-                  <point x="346.05687499999993" y="616.0" />
-                  <point x="379.7235416666666" y="616.0" />
-                  <point x="73.0" y="81.0" />
-                </edge>
-                <edge source="Teammates.git.gud.CourseRepository" target="Teammates.git.gud.Course">
-                  <point x="-57.249999999999886" y="-25.5" />
-                  <point x="892.9866666666667" y="399.0" />
-                  <point x="922.056875" y="399.0" />
-                  <point x="-30.625" y="81.5" />
-                </edge>
-                <edge source="Teammates.git.gud.Main" target="Teammates.git.gud.InstructorRESTService">
-                  <point x="-63.375" y="-25.5" />
-                  <point x="425.45270833333325" y="818.0" />
-                  <point x="84.25" y="818.0" />
-                  <point x="-84.25" y="25.5" />
-                </edge>
-                <edge source="Teammates.git.gud.InstructorRESTService" target="Teammates.git.gud.Instructor">
-                  <point x="-112.33333333333331" y="-25.5" />
-                  <point x="56.166666666666686" y="712.0" />
-                  <point x="54.72354166666662" y="712.0" />
-                  <point x="54.72354166666662" y="399.0" />
-                  <point x="51.390208333333305" y="399.0" />
-                  <point x="-161.66666666666669" y="114.5" />
-                </edge>
-                <edge source="Teammates.git.gud.StudentApplicationService" target="Teammates.git.gud.Course">
-                  <point x="26.91666666666663" y="-25.5" />
-                  <point x="772.5777083333332" y="616.0" />
-                  <point x="764.8197916666666" y="616.0" />
-                  <point x="764.8197916666666" y="399.0" />
-                  <point x="860.806875" y="399.0" />
-                  <point x="-91.875" y="81.5" />
-                </edge>
-                <edge source="Teammates.git.gud.InstructorRepository" target="Teammates.git.gud.Role">
-                  <point x="116.80000000000001" y="-81.0" />
-                  <point x="423.52354166666663" y="399.0" />
-                  <point x="417.556875" y="399.0" />
-                  <point x="417.556875" y="120.0" />
-                  <point x="320.30479166666674" y="120.0" />
-                  <point x="26.666666666666686" y="47.5" />
-                </edge>
-                <edge source="Teammates.git.gud.StudentApplicationService" target="Teammates.git.gud.CourseRepository">
-                  <point x="134.58333333333337" y="-25.5" />
-                  <point x="880.244375" y="616.0" />
-                  <point x="1007.4866666666666" y="616.0" />
-                  <point x="57.25" y="25.5" />
-                </edge>
-                <edge source="Teammates.git.gud.StudentApplicationService" target="Teammates.git.gud.StudentRepository">
-                  <point x="-134.58333333333337" y="-25.5" />
-                  <point x="611.0777083333332" y="616.0" />
-                  <point x="535.056875" y="616.0" />
-                  <point x="-59.25" y="25.5" />
-                </edge>
-                <edge source="Teammates.git.gud.InstructorRepository" target="Teammates.git.gud.Instructor">
-                  <point x="-58.400000000000006" y="-81.0" />
-                  <point x="248.32354166666664" y="399.0" />
-                  <point x="245.3902083333333" y="399.0" />
-                  <point x="32.333333333333314" y="114.5" />
-                </edge>
-                <edge source="Teammates.git.gud.InstructorRESTService" target="Teammates.git.gud.InstructorApplicationService">
-                  <point x="0.0" y="-25.5" />
-                  <point x="168.5" y="712.0" />
-                  <point x="149.47354166666662" y="712.0" />
-                  <point x="-84.25" y="25.5" />
-                </edge>
-                <edge source="Teammates.git.gud.StudentRESTService" target="Teammates.git.gud.StudentApplicationService">
-                  <point x="-108.0" y="-25.5" />
-                  <point x="718.4110416666665" y="712.0" />
-                  <point x="664.9110416666665" y="712.0" />
-                  <point x="-80.75" y="25.5" />
-                </edge>
-                <edge source="Teammates.git.gud.InstructorApplicationService" target="Teammates.git.gud.Instructor">
-                  <point x="-112.33333333333331" y="-25.5" />
-                  <point x="121.3902083333333" y="616.0" />
-                  <point x="118.31979166666667" y="616.0" />
-                  <point x="118.31979166666667" y="399.0" />
-                  <point x="116.05687499999999" y="399.0" />
-                  <point x="-97.0" y="114.5" />
-                </edge>
-                <edge source="Teammates.git.gud.StudentRepository" target="Teammates.git.gud.Student">
-                  <point x="59.25" y="-25.5" />
-                  <point x="653.556875" y="399.0" />
-                  <point x="629.181875" y="399.0" />
-                  <point x="0.0" y="81.0" />
-                </edge>
-                <edge source="Teammates.git.gud.StudentRESTService" target="Teammates.git.gud.Course">
-                  <point x="108.0" y="-25.5" />
-                  <point x="934.4110416666665" y="712.0" />
-                  <point x="1075.2366666666667" y="712.0" />
-                  <point x="1075.2366666666667" y="399.0" />
-                  <point x="1044.5568749999998" y="399.0" />
-                  <point x="91.87499999999989" y="81.5" />
-                </edge>
-                <edge source="Teammates.git.gud.Main" target="Teammates.git.gud.StudentRESTService">
-                  <point x="21.125" y="-25.5" />
-                  <point x="509.95270833333325" y="808.0" />
-                  <point x="745.4110416666665" y="808.0" />
-                  <point x="-81.0" y="25.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.6215621562156216" x="538.825663716814" y="516.5362831858407" />
-              <SelectedNodes>
-                <node>Teammates.git.gud.InstructorRESTService</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Methods</Category>
-                <Category>Properties</Category>
-                <Category>Constructors</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InstructorApplicationService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/InstructorApplicationService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+            <state relative-caret-position="210">
+              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -248,11 +77,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/Role.java">
+      <file leaf-file-name="CourseRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/CourseRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="204">
+              <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InstructorRESTService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/InstructorRESTService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InstructorApplicationService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/InstructorApplicationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -285,12 +136,12 @@
         <option value="$PROJECT_DIR$/src/Teammates/git/gud/Role.java" />
         <option value="$PROJECT_DIR$/src/Teammates/git/gud/Instructor.java" />
         <option value="$PROJECT_DIR$/src/Teammates/git/gud/StudentRepository.java" />
-        <option value="$PROJECT_DIR$/src/Teammates/git/gud/CourseRepository.java" />
         <option value="$PROJECT_DIR$/src/Teammates/git/gud/Course.java" />
-        <option value="$PROJECT_DIR$/src/Teammates/git/gud/InstructorRESTService.java" />
-        <option value="$PROJECT_DIR$/src/Teammates/git/gud/InstructorApplicationService.java" />
         <option value="$PROJECT_DIR$/src/Teammates/git/gud/Main.java" />
+        <option value="$PROJECT_DIR$/src/Teammates/git/gud/CourseRepository.java" />
         <option value="$PROJECT_DIR$/src/Teammates/git/gud/InstructorRepository.java" />
+        <option value="$PROJECT_DIR$/src/Teammates/git/gud/InstructorApplicationService.java" />
+        <option value="$PROJECT_DIR$/src/Teammates/git/gud/InstructorRESTService.java" />
       </list>
     </option>
   </component>
@@ -355,9 +206,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552130648045" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="settings.editor.splitter.proportion" value="0.23212537" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -371,15 +225,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Teammates.git.gud.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -388,6 +242,11 @@
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -404,7 +263,7 @@
       <updated>1552046965655</updated>
       <workItem from="1552046971521" duration="2326000" />
       <workItem from="1552126151160" duration="4452000" />
-      <workItem from="1552329989912" duration="3576000" />
+      <workItem from="1552329989912" duration="6423000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1552048185946</created>
@@ -431,22 +290,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10354000" />
+    <option name="totallyTimeSpent" value="13201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12391304" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12391304" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -549,72 +407,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/BaseIdentity.java" />
     <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/Account.java" />
-    <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/StudentRESTService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/StudentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/CourseRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/InstructorApplicationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/Instructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/InstructorRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -629,26 +433,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/StudentApplicationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/Course.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/InstructorRESTService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -789,7 +577,7 @@
               <point x="-81.0" y="25.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.6215621562156216" x="538.825663716814" y="516.5362831858407" />
+          <settings layout="Hierarchic Group" zoom="0.6215621562156216" x="-206.8761061946903" y="296.1238938053097" />
           <SelectedNodes>
             <node>Teammates.git.gud.InstructorRESTService</node>
           </SelectedNodes>
@@ -805,5 +593,155 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/StudentRESTService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/CourseRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/Instructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/StudentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/StudentApplicationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/InstructorRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/InstructorApplicationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/InstructorRESTService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Teammates/git/gud/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jquery-3.2.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Teammates-git-gud</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

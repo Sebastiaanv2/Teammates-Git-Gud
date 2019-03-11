@@ -10,9 +10,9 @@ public class CourseRepository {
         ArrayList<Course> courses = new ArrayList<>();
         courses.add(c);
         courses.add(d);
-        for (int i = 0; i < courses.size(); i++) {
-            if (courses.get(i).getId().equals(courseId)) {
-                return courses.get(i);
+        for (Course course : courses) {
+            if (course.getId().equals(courseId)) {
+                return course;
             }
         }
         return null;
