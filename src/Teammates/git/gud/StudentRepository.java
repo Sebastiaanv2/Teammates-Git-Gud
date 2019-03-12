@@ -13,7 +13,7 @@ public class StudentRepository {
     }
 
 
-    public Student findStudentById(String googleId) {
+    public Student getStudentsForGoogleId(String googleId) {
         return new Student(googleId, "thomas@haribo.nl", "thomas", "teammates", courses);
     }
 }

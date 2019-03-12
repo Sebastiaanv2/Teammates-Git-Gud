@@ -16,7 +16,7 @@ public class CourseRepository {
         courses.add(e);
     }
 
-    public Course findCourseById(String courseId) {
+    public Course getCourse(String courseId) {
         for (Course course : courses) {
             if (course.getId().equals(courseId)) {
                 return course;

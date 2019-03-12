@@ -16,19 +16,10 @@ public class InstructorRepository {
     }
 
 
-    public Instructor updateCourseOfInstructor(String googleId, String newCourseId) {
+    public Instructor updateCourseForInstructor(String googleId, String newCourseId) {
         for (Instructor i : instructors) {
             if (i.getGoogleId().equals(googleId)) {
                 i.setCourseId(newCourseId);
-                return i;
-            }
-        }
-        return null;
-    }
-
-    public Instructor findInstructorById(String googleId) {
-        for (Instructor i : instructors) {
-            if (i.getGoogleId().equals(googleId)) {
                 return i;
             }
         }
