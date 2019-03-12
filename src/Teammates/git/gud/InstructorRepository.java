@@ -16,14 +16,14 @@ public class InstructorRepository {
     }
 
 
-    public boolean updateCourseOfInstructor(String googleId, String newCourseId) {
+    public Instructor updateCourseOfInstructor(String googleId, String newCourseId) {
         for (Instructor i : instructors) {
             if (i.getGoogleId().equals(googleId)) {
                 i.setCourseId(newCourseId);
-                return true;
+                return i;
             }
         }
-        return false;
+        return null;
     }
 
     public Instructor findInstructorById(String googleId) {
