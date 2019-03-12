@@ -15,7 +15,7 @@ public class InstructorRepository {
         instructors.add(e);
     }
 
-    public boolean archiveInstructorOfCourse(String courseId) {
+    public boolean archiveInstructorForCourse(String courseId) {
         for (int i = 0; i < instructors.size(); i++) {
             if (instructors.get(i).getCourseId().equals(courseId)) {
                 instructors.get(i).setArchived(true);
@@ -26,7 +26,7 @@ public class InstructorRepository {
     }
 
     public Instructor updateCourseForInstructor(String googleId, String newCourseId) {
-        archiveInstructorOfCourse(newCourseId);
+        archiveInstructorForCourse(newCourseId);
         for (Instructor i : instructors) {
             if (i.getGoogleId().equals(googleId)) {
                 i.setCourseId(newCourseId);
