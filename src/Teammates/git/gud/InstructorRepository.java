@@ -15,8 +15,18 @@ public class InstructorRepository {
         instructors.add(e);
     }
 
+    public boolean archiveInstructorOfCourse(String courseId) {
+        for (int i = 0; i < instructors.size(); i++) {
+            if (instructors.get(i).getCourseId().equals(courseId)) {
+                instructors.get(i).setArchived(true);
+                return true;
+            }
+        }
+        return false;
+    }
 
     public Instructor updateCourseForInstructor(String googleId, String newCourseId) {
+        archiveInstructorOfCourse(newCourseId);
         for (Instructor i : instructors) {
             if (i.getGoogleId().equals(googleId)) {
                 i.setCourseId(newCourseId);
@@ -25,4 +35,5 @@ public class InstructorRepository {
         }
         return null;
     }
+
 }
