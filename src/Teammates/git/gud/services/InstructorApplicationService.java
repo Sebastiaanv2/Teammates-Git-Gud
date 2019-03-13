@@ -1,4 +1,7 @@
-package Teammates.git.gud;
+package Teammates.git.gud.services;
+
+import Teammates.git.gud.repositories.InstructorRepository;
+import Teammates.git.gud.models.Instructor;
 
 public class InstructorApplicationService {
     public Instructor updateCourseForInstructor(String googleId, String newCourseId) {

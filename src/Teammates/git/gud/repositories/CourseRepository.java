@@ -1,4 +1,6 @@
-package Teammates.git.gud;
+package Teammates.git.gud.repositories;
+
+import Teammates.git.gud.models.Course;
 
 import java.util.ArrayList;
 import java.util.Date;

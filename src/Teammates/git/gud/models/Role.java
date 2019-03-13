@@ -1,4 +1,4 @@
-package Teammates.git.gud;
+package Teammates.git.gud.models;
 
 public enum Role {
     Owner,
